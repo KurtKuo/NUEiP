@@ -11,7 +11,7 @@ public class Car extends Vehicle implements Fallback{
 	public void move() {
 		System.out.println("轎車也可以移動！");
 	}
-	
+	//////
 	@Override
 	public void fallback() {
 		// TODO Auto-generated method stub
